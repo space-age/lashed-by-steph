@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-black;
+  }
+}
+
+/* custom class names */
+@layer components {
+}
