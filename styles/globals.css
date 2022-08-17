@@ -11,12 +11,12 @@
 /* custom class names */
 @layer components {
   .header--underline {
-    @apply hover:text-[#f1cc85] cursor-pointer transition duration-500 hover:ease-in;
+    @apply hover:text-[#f1cc85] cursor-pointer transition duration-500 hover:ease-in relative text-xl md:text-5xl xl:text-6xl font-playfair italic;
   }
   .header--underline::after {
-    @apply content-[''] absolute w-[30%] left-[35%] border-[#888] border-b-[1px] bottom-4 transition-all duration-500;
+    @apply content-[''] absolute left-[15%] w-[70%] border-[#888] border-b-[1px] -bottom-4 transition-all duration-500;
   }
   .header--underline:hover::after {
-    @apply w-[40%] left-[30%] transition-all duration-500 border-[#f1cc85];
+    @apply w-[100%] left-0 transition-all duration-500 border-b-[#f1cc85];
   }
 }

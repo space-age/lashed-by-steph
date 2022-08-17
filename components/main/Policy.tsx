@@ -2,15 +2,14 @@ import React from "react";
 
 function Policy() {
   return (
-    // <section className="relative border-[1px] border-[#f8bbd0] mt-10 p-5">
     <section className="relative mt-5 p-5">
       <h2 className="text-center text-5xl font-playfair italic capitalize text-[#f1cc85]">
         Policy & Booking
       </h2>
-      <div className="flex mt-5 gap-10">
-        <div className="w-[50%] border-[2px] border-[#bbdefb] p-5 rounded-md italic text-center">
+      <div className="flex flex-col md:flex-row mt-5 gap-5 md:gap-10">
+        <div className="w-full md:w-[50%] border-[2px] border-[#bbdefb] sm:p-5 py-5 px-2 rounded-md italic text-center">
           <h3 className="text-4xl font-playfair">Policy</h3>
-          <div className="text-md mx-5 mb-5 border-b-[1px] border-[#bbdefb] p-4 ">
+          <div className="text-md mx-5 mb-5 border-b-[1px] border-[#bbdefb] sm:p-4 ">
             <h4 className="text-2xl underline-offset-8 underline decoration-[#bbdefb] decoration-1 mb-5 font-medium">
               Client has a 10 minutes grace period
             </h4>
@@ -34,9 +33,9 @@ function Policy() {
             it is fair to have the next client waiting.
           </p>
         </div>
-        <div className="w-[50%] border-[2px] border-[#e1bee7] p-5 rounded-md italic text-center">
+        <div className="w-full md:w-[50%] border-[2px] border-[#e1bee7] sm:p-5 py-5 px-2 rounded-md italic text-center">
           <h3 className="text-4xl font-playfair">Booking</h3>
-          <div className="text-md mx-5 mb-5 border-b-[1px] border-[#e1bee7] p-4">
+          <div className="text-md mx-5 mb-5 border-b-[1px] border-[#e1bee7] sm:p-4">
             <p className="mb-2 p-2 ">
               $20 NON-REFUNDABLE deposit is required to book through ZELLE. It
               will go towards service. Remainder balance is due in CASH ONLY!!!

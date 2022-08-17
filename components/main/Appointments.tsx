@@ -7,8 +7,8 @@ function Appointments() {
       <h2 className="text-center text-5xl font-playfair italic capitalize text-[#f1cc85]">
         Before & after your Appointment
       </h2>
-      <div className="flex mt-5 gap-10">
-        <div className="w-[50%] bg-purple-100 p-5 rounded-md">
+      <div className="flex flex-col gap-5 sm:gap-0 sm:flex-row mt-5 md:gap-10">
+        <div className="w-full sm:w-[50%] bg-purple-100 md:p-5 py-5 md:rounded-md">
           <h3 className="text-center text-4xl font-playfair italic">Before</h3>
           <div className="text-md text-center m-5 italic ">
             <p className="mb-2 p-2 border-b-[1px] border-white">
@@ -53,7 +53,7 @@ function Appointments() {
             </div> */}
           </div>
         </div>
-        <div className="w-[50%] bg-blue-100  p-5 rounded-md">
+        <div className="w-full sm:w-[50%] bg-blue-100  md:p-5 py-5 md:rounded-md">
           <h3 className="text-center text-4xl font-playfair italic">After</h3>
           <div className="text-md text-center m-5 italic">
             <p className="mb-2 p-2 border-b-[1px] border-white">

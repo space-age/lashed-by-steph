@@ -1,27 +1,27 @@
 import Image from "next/image";
 import React from "react";
 
-import image1 from "../../images/work3.jpg";
-import image2 from "../../images/work1.jpg";
-import image3 from "../../images/work8.jpg";
-import image4 from "../../images/work4.jpg";
-import image5 from "../../images/work6.jpg";
-import image6 from "../../images/work5.jpg";
-import image7 from "../../images/work10.jpg";
-import image8 from "../../images/work12.jpg";
-import image9 from "../../images/work11.jpg";
-import image10 from "../../images/work9.jpg";
-import image11 from "../../images/work7.jpg";
+import image1 from "../../images/work/work3.jpg";
+import image2 from "../../images/work/work1.jpg";
+import image3 from "../../images/work/work8.jpg";
+import image4 from "../../images/work/work4.jpg";
+import image5 from "../../images/work/work6.jpg";
+import image6 from "../../images/work/work5.jpg";
+import image7 from "../../images/work/work10.jpg";
+import image8 from "../../images/work/work12.jpg";
+import image9 from "../../images/work/work11.jpg";
+import image10 from "../../images/work/work9.jpg";
+import image11 from "../../images/work/work7.jpg";
 
 function ClientsWork() {
   return (
-    <section className="mt-10 gap-10 h-[175vh]">
+    <section className="mt-5 p-5 gap-10">
       <h2 className="text-center text-5xl font-playfair italic capitalize text-[#f1cc85]">
         Clients Eye Lashes Extensions
       </h2>
       {/* First row */}
-      <div className="flex mt-5 gap-5 h-[50vh]">
-        <div className="w-[25%] bg-purple-100 relative  brightness-[1]">
+      <div className="flex flex-col md:flex-row mt-5 gap-5">
+        <div className="w-full h-[35vh] md:h-[50vh] md:w-[25%] bg-purple-100 relative  brightness-[1]">
           <Image
             src={image1}
             layout="fill"
@@ -29,7 +29,7 @@ function ClientsWork() {
             className="rounded-sm"
           />
         </div>
-        <div className="w-[50%] bg-purple-100 relative  brightness-[1]">
+        <div className="w-full h-[35vh] md:h-[50vh] md:w-[50%] bg-purple-100 relative  brightness-[1]">
           <Image
             src={image2}
             layout="fill"
@@ -37,7 +37,7 @@ function ClientsWork() {
             className="rounded-sm"
           />
         </div>
-        <div className="w-[25%] bg-purple-100 relative  brightness-[1]">
+        <div className="w-full h-[35vh] md:h-[50vh] md:w-[25%] bg-purple-100 relative  brightness-[1]">
           <Image
             src={image3}
             layout="fill"
@@ -48,8 +48,8 @@ function ClientsWork() {
       </div>
 
       {/* Second Row */}
-      <div className="flex mt-10 gap-5 h-[50vh]">
-        <div className="w-[33%] bg-purple-100 relative  brightness-[1]">
+      <div className="flex flex-col md:flex-row mt-5 md:mt-10 gap-5">
+        <div className="w-full h-[35vh] md:h-[50vh] md:w-[33%] bg-purple-100 relative  brightness-[1]">
           <Image
             src={image4}
             layout="fill"
@@ -57,7 +57,7 @@ function ClientsWork() {
             className="rounded-sm"
           />
         </div>
-        <div className="w-[33%] bg-purple-100 relative  brightness-[1]">
+        <div className="w-full h-[35vh] md:h-[50vh] md:w-[33%] bg-purple-100 relative  brightness-[1]">
           <Image
             src={image5}
             layout="fill"
@@ -65,7 +65,7 @@ function ClientsWork() {
             className="rounded-sm"
           />
         </div>
-        <div className="w-[33%] bg-purple-100 relative  brightness-[1]">
+        <div className="w-full h-[35vh] md:h-[50vh] md:w-[33%] bg-purple-100 relative  brightness-[1]">
           <Image
             src={image6}
             layout="fill"
@@ -76,10 +76,10 @@ function ClientsWork() {
       </div>
 
       {/* Third Row */}
-      <div className="flex mt-10 gap-10 h-[50vh]">
-        <div className="w-[50%] relative flex flex-col gap-4">
-          <div className="relative h-full w-full bg-[#f1cc85] py-3 px-1">
-            <div className="hover:border-white border-[1.5px] border-[#f1cc85] m-4 p-5 transition-all duration-300 cursor-pointer">
+      <div className="flex flex-col md:flex-row mt-5 md:mt-10 gap-5 ">
+        <div className="w-full md:w-[50%] relative flex flex-col gap-4">
+          <div className="relative h-[25vh] md:h-full w-full bg-[#f1cc85] py-3 px-1">
+            <div className="hover:border-white border-[1.5px] border-[#f1cc85] m-4 md:p-5 p-2 transition-all duration-300 cursor-pointer">
               <a
                 target="_blank"
                 href="https://www.instagram.com/lashed_by_stephh/?hl=en"
@@ -92,7 +92,7 @@ function ClientsWork() {
             </div>
           </div>
           <div className=" relative h-full flex gap-2">
-            <div className="bg-purple-100 relative h-full w-[33%]">
+            <div className="bg-purple-100 relative h-[30vh] md:h-full w-[33%]">
               <Image
                 src={image7}
                 layout="fill"
@@ -100,7 +100,7 @@ function ClientsWork() {
                 className="rounded-sm"
               />
             </div>
-            <div className="bg-purple-100 relative h-full w-[33%]">
+            <div className="bg-purple-100 relative h-[30vh] md:h-full w-[33%]">
               <Image
                 src={image8}
                 layout="fill"
@@ -108,7 +108,7 @@ function ClientsWork() {
                 className="rounded-sm"
               />
             </div>
-            <div className="bg-purple-100 relative h-full w-[33%]">
+            <div className="bg-purple-100 relative h-[30vh] md:h-full w-[33%]">
               <Image
                 src={image9}
                 layout="fill"
@@ -118,7 +118,8 @@ function ClientsWork() {
             </div>
           </div>
         </div>
-        <div className="w-[25%] bg-purple-100 relative  brightness-[1]">
+
+        <div className="w-full h-[35vh] md:h-[50vh] md:w-[25%] bg-purple-100 relative  brightness-[1]">
           <Image
             src={image10}
             layout="fill"
@@ -126,7 +127,7 @@ function ClientsWork() {
             className="rounded-sm"
           />
         </div>
-        <div className="w-[25%] bg-purple-100 relative  brightness-[1]">
+        <div className="w-full h-[35vh] md:h-[50vh] md:w-[25%] bg-purple-100 relative  brightness-[1]">
           <Image
             src={image11}
             layout="fill"

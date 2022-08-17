@@ -14,7 +14,11 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-textshadow"),
+    require("tailwind-scrollbar-hide"),
+    require("tailwind-scrollbar"),
+  ],
 };
 
 // "linear-gradient(to top, rgba(255, 255, 255, 0.95) 10%, rgba(255, 255, 255, 0.13) 60%, rgba(255, 255, 255, 0.04) 70%);",

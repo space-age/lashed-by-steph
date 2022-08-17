@@ -2,11 +2,11 @@ import React from "react";
 
 function Availability() {
   return (
-    <section className="my-10 relative">
+    <section className="mt-5 p-5 relative">
       <h2 className="text-center text-5xl font-playfair italic capitalize text-[#f1cc85] ">
         Let's make something beautiful
       </h2>
-      <div className="w-[31%] text-center m-auto mt-7 text-xl italic">
+      <div className="lg:w-[31%] text-center m-auto mt-7 text-xl italic">
         <p className="mb-2">
           Please{" "}
           <a
