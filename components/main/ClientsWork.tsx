@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
 
-import image1 from "../../images/work/work3.JPG";
-import image2 from "../../images/work/work1.JPG";
-import image3 from "../../images/work/work8.JPG";
-import image4 from "../../images/work/work4.JPG";
-import image5 from "../../images/work/work6.JPG";
-import image6 from "../../images/work/work5.JPG";
-import image7 from "../../images/work/work10.JPG";
-import image8 from "../../images/work/work12.JPG";
-import image9 from "../../images/work/work11.JPG";
-import image10 from "../../images/work/work9.JPG";
-import image11 from "../../images/work/work7.JPG";
+import image1 from "../../images/work/work3.jpg";
+import image2 from "../../images/work/work1.jpg";
+import image3 from "../../images/work/work8.jpg";
+import image4 from "../../images/work/work4.jpg";
+import image5 from "../../images/work/work6.jpg";
+import image6 from "../../images/work/work5.jpg";
+import image7 from "../../images/work/work10.jpg";
+import image8 from "../../images/work/work12.jpg";
+import image9 from "../../images/work/work11.jpg";
+import image10 from "../../images/work/work9.jpg";
+import image11 from "../../images/work/work7.jpg";
 
 function ClientsWork() {
   return (
